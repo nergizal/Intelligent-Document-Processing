@@ -1,0 +1,13 @@
+Name,Value,Description
+orchestratorQueueName,IDP_DocumentIngestionQueue,UiPath Orchestrator kuyruk adi
+mailInboxFolder,Inbox/Faturalar,IMAP/Outlook Mail izlenecek klasor
+mailUsername,invoices@company.com,E-posta kutusu kullanici adi (Asset uzerinden okunmasi onerilir)
+mailServerHost,imap.company.com,IMAP sunucu adresi
+mailServerPort,993,IMAP sunucu portu
+attachmentDownloadPath,Data\Input,Indirilen PDF eklerinin kaydedilecegi klasor
+aiServicePredictUrl,http://localhost:8500/predict,AI servisi /predict endpoint URL'i
+backendLogsUrl,http://localhost:8000/api/v1/logs,Backend automation_logs endpoint URL'i
+confidenceReviewThreshold,0.75,Bu esigin altindaki confidence_score degerleri HUMAN_REVIEW olarak isaretlenir
+maxRetryCount,3,Basarisiz adimlar icin maksimum yeniden deneme sayisi
+pollingIntervalMinutes,5,E-posta kutusunun kac dakikada bir kontrol edilecegi
+robotName,InvoiceIngestionBot,automation_logs.robot_name alaninda kullanilacak robot adi

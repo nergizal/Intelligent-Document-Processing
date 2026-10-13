@@ -1,0 +1,14 @@
+{
+  "document_id": "3f1c9e3a-8b2e-4b0a-9a3d-2b6a9c9e0a11",
+  "document_type": "INVOICE",
+  "confidence_score": 0.94,
+  "extracted_data": {
+    "invoice_number": "INV-2026-000482",
+    "invoice_date": "2026-08-10",
+    "supplier_name": "Acme Tedarik A.Ş.",
+    "total_amount": 15420.50,
+    "tax_amount": 2350.25,
+    "currency": "TRY"
+  },
+  "processing_time_ms": 842
+}
